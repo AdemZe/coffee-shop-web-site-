@@ -1,0 +1,643 @@
+*{
+    margin : 0;
+    padding : 0 ;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.all-content{
+    background: #f7f5f2;
+}
+html ::-webkit-scrollbar-track{
+    background: transparent;
+}
+html ::-webkit-scrollbar-thumb{
+background: #b2744c;
+border-radius: 10px ;
+
+}
+
+html ::-webkit-scrollbar{
+    width:10px;
+}
+
+
+/* navbar */
+#navbar{
+  background-color: #b2744c ;  
+
+}
+
+
+/* logo */ 
+#logo img {
+    width:160px;
+    margin-left: 40px ;
+    border-radius: 10px;
+}
+
+/* navbar edit */
+.navbar-nav{
+    margin-left:50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: px ;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link  :hover{
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+
+}
+
+
+/* home start */
+
+
+#home{
+    width:100%;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bc3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+
+#home .content h3 {
+font-size: 50px;
+color: white;
+}
+
+
+
+#home .content p {
+    margin-top: 10px;
+    color :white ;
+}
+#btn{
+width: 150px;
+height: 36px;
+margin-top: 20px;
+background: white;
+border-radius: 5px;
+font-weight: bold;
+border: none;
+transition: 0.5;
+cursor:pointer;
+
+
+}
+#btn:hover{
+    background: #b2744c;
+    color: white;
+}
+
+
+/* home  end */
+
+
+
+
+
+
+
+
+
+/* about  start */
+
+
+#about{
+    width: 100%;
+    height: auto;
+
+}
+#about .container{
+    padding-top: 70px ;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: #b2744c;
+}
+#about .card{
+    border-radius: 10px;
+}
+
+#about .card img{
+    border-radius: 10px;
+}
+#about-btn {
+width: 200px;
+height: 36px;
+background: transparent;
+border: 2px solid #b2744c ;
+color: #b2744c;
+border-radius: 5px ;
+font-weight: blod;
+transition: 0.5s;
+cursor: pointer;
+
+}
+#about-btn:hover{
+    background-color: #b2744c;
+    color: #f7f5f2;
+}
+
+@media screen and (max-width:982px) {
+    #about p{
+        font-size: 8px;
+    } 
+ }
+ @media screen and (max-width:766) {
+    #about p{
+        font-size: 15px;
+    } 
+    #about{
+        height: 120vh;
+    }
+ }
+
+
+
+
+
+/* about end */
+
+
+/* top cards start */
+#top-cards{
+    width: 100%;
+    background: #f7f5f2;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.heading2 span{
+    color: #b2744c;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+#top-cards .card{
+    border-radius: 10px;
+    transform: 0.5s;
+    cursor: pointer;
+}
+#top-cards .card img {
+    border-radius: 10px;
+}
+#top-cards .card:hover{
+    transform: translateY(-10px);
+}
+
+
+/* top cards end */
+
+
+
+/* menu start */
+
+
+.menu{
+    width: 100%;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+    padding-bottom: 30px;
+  }
+  .heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+    padding-top: 30px;
+  }
+  #container2{
+    margin-top: 20px;
+  }
+  .menu .card{
+    background: white;
+    cursor: pointer;
+   
+  }
+
+
+  .card :hover{
+  transform: translateY(-10px);
+  }
+  .menu h3{
+    color: #b2744c;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .menu p{
+    font-size: 16px;
+    color: #b2744c;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+ 
+
+  /* menu end */
+
+
+
+
+  /* product start */
+.product{
+    width: 100%;
+    background: #f7f5f2;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+  }
+  .heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 70px;
+    border-bottom: 2px solid #b2744c;
+    padding-top: 25px ;
+  }
+  #container3{
+    margin-top: 30px;
+    padding-bottom: 25px;
+  }
+  .product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+  }
+  .product p{
+    color: #b2744c;
+    padding-top: 10px;
+  }
+  .product p span{
+    float: right;
+    cursor: pointer;
+  }
+  /* product end */
+
+
+
+
+
+
+
+
+
+  /* gallary start */
+#gallary{
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  #gallary h1{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-weight: bold;
+  }
+  #gallary h1 span{
+    color: #b2744c;
+  }
+  #gallary .card{
+    border-radius: 10px;
+  }
+  #gallary .card img{
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  /* gallary end  */ 
+
+
+
+
+/* blogs */
+.blogs{
+    width: 100%;
+    background: #f7f5f2;
+  }
+  .blogs h1{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding-top: 15px;
+  }
+  .blogs h1 span{
+    color: #b2744c;
+  }
+  .blogs .container{
+    margin-top: 60px;
+  }
+  .blogs h5{
+    color: #b2744c;
+  }
+  #blogbtn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: white;
+    background: #b2744c;
+    cursor: pointer;
+  }
+  /* blogs */
+
+
+
+  /* contact start */
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: #f7f5f2;
+    padding-top: 70px;
+  }
+  .contact .container{
+    width: 100%;
+    height: 80vh;
+    background: white;
+    border-radius: 10px;
+  }
+  .heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+  }
+  .heading6 span{
+    color: #b2744c;
+  }
+  .contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+  }
+  .contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid;
+  }
+  #contact-btn{
+    width: 200px;
+    height: 36px; 
+    border: none;
+    background: #b2744c;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  #col{
+    width: 40%;
+    height: 56vh;
+    background: #b2744c;
+    margin-top: 78px;
+  }
+  .contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    padding-top: 30px;
+  }
+  @media screen and (max-width:766px){
+    .contact .container{
+    background: white;
+    }
+    #col{
+      width: 100%;
+      background: #b2744c;
+    }
+    .contact{
+      height: 150vh;
+    }
+  }
+  @media screen and (max-width:400px){
+    .contact input{
+      width: 250px;
+    }
+    
+  }
+  /* contact end  */
+
+
+/* footer */
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+  }
+  .footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  #footer .socail-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .credite{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+
+  }
+
+/* footer end  */
+
+/* espresso page start */
+.espresso-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.espresso-section h1 {
+  font-size: 2em;
+  color: #b45f06;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.espresso-section p {
+  margin-bottom: 15px;
+  text-align: justify;
+  color: #555;
+}
+
+.espresso-section p::first-letter {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #b45f06;
+}
+
+
+
+
+/* espresso page end */
+
+
+
+
+
+
+
+/* Cappuccino page start */
+.Cappuccino-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.Cappuccino-section h1 {
+  font-size: 2em;
+  color: #b45f06;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.Cappuccino-section p {
+  margin-bottom: 15px;
+  text-align: justify;
+  color: #555;
+}
+
+.Cappuccino-section p::first-letter {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #b45f06;
+}
+
+
+
+
+/* Cappuccino page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cortado page start */
+.cortado-section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.cortado-section h1 {
+  font-size: 2em;
+  color: #b45f06;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.cortado-section p {
+  margin-bottom: 15px;
+  text-align: justify;
+  color: #555;
+}
+
+.cortado-section p::first-letter {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #b45f06;
+}
+
+
+
+
+/* cortado page end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* caroussel page end */
+
+
+.carousel {
+  width: 80%; /* Définissez la largeur souhaitée (par exemple, 70% de la largeur de l'écran) */
+  max-width: 600px; /* Limite la largeur maximale du carrousel */
+  margin: 0 auto; /* Centre le carrousel horizontalement */
+}
+
+/* Ajuste la hauteur des images du carrousel */
+.carousel-inner img {
+  height: 450px; /* Ajustez la hauteur en fonction de vos besoins */
+  object-fit: cover; /* Permet de garder une bonne composition de l'image */
+}
+
+
+
+
+
+
+/* caroussel page end */
